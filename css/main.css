@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*  START STYLE */
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+nav a:hover{
+    color: #f59696;
+    font-size: 24px;
+    
+}
+
+header {
+    display: flex;
+    height: 4rem;
+    justify-content: center;  
+    align-items: center;
+    background-color: #363636;
+    color: rgb(255, 255, 255);
+    font-size: 32px; 
+}
+
+header:hover{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 32px;
+}
+
+
+section  img {
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+/*  HTML BASICO STYLE */
+
+#conteudo {
+    
+    padding: 10px;
+   
+    text-align:justify
+    
+}
+
+#conteudo h2 {
+    text-align: center;
+    padding: 7px;
+}
+
+#conteudo p {
+    padding:5px;
+    margin: 5px;
+}
+
+#conteudo ul {
+    text-align: justify;
+    padding: 5px;
+    
+}
+
+#conteudo li {
+    text-align: justify;
+  
+   margin: 25px;
+
+
+   /*  CADASTRO STYLE */
+}
+
+#cadastrar {
+    padding: 10px;
+    margin: 10px;
+    
+}
+#cadastrar h2 {
+    text-align: center;
+    padding: 7px;
+}
+
+#cadastrar ul {
+    display: flex;
+    list-style: none;
+}
+
+#cadastrar li {
+    padding: 5px;
+    margin: 5px;
+}
+
+#cadastrar p {
+    padding: 5px;
+    margin: 5px; 
+}
+
+#cadastrar button {
+    position: relative;
+   top: 12px;
+    padding: 5px;
+    margin: 5px;
+    height: 35px;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+#cadastrar button:hover {
+   background-color: #bebdbd;
+   box-shadow: 3px 3px #888888;
+   border: 2px solid #000;
+}
+
+
+/* TABLE STYLE */
+
+#lista{
+    
+    display: flex;
+    justify-content: center;
+
+}
+#lista h2 {
+    text-align: center;
+    padding: 30px;
+}
+#lista table {
+    border: #000 solid 2px;
+    border-collapse: collapse;  
+   
+}
+
+
+#lista th, td {
+    border: rgb(221, 221, 221) solid 2px;
+    padding: 25px;
+    
+}
+#lista th:hover, td:hover {
+    background-color: #dbdbdb;
+}
+
+#lista .color-red{
+    background-color: rgb(184, 184, 184);
+}
+
+#lista .color-green {
+    background-color: #06f1ca;
+}
+
+
+/* FOOTER STYLE */
+
+footer{
+    background: #05539B;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    footer:hover{
+        color:#022d55;
+        font-style: italic;
+        
+    }
+    
