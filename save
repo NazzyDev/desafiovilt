@@ -133,40 +133,39 @@ section  img {
 
 /* TABLE STYLE */
 
+#lista{
+    
+    display: flex;
+    justify-content: center;
+
+}
 #lista h2 {
     text-align: center;
-    padding: 12px;
+    padding: 30px;
+}
+#lista table {
+    border: #000 solid 2px;
+    border-collapse: collapse;  
+   
 }
 
-#tabela th:hover, td:hover {
+
+#lista th, td {
+    border: rgb(221, 221, 221) solid 2px;
+    padding: 25px;
+    
+}
+#lista th:hover, td:hover {
     background-color: #dbdbdb;
 }
 
-#tabela,td,th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    border: rgb(221, 221, 221) solid 2px;
-    
-}
-
-#tabela{
-    position: relative;
-    width: 100%;
-    
-}
-
-tr{
-    height: 35px;
-}
-
-
-#tabela .color-red{
+#lista .color-red{
     background-color: rgb(184, 184, 184);
 }
 
-#tabela .color-green {
+#lista .color-green {
     background-color: #06f1ca;
-} 
+}
 
 
 /* FOOTER STYLE */
